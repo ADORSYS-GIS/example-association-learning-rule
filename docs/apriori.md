@@ -14,7 +14,7 @@ Algorithm: Apriori
 Input: Dataset (D), Minimum Support (min_support), Minimum Confidence (min_confidence)
 Output: Frequent Itemsets, Strong Rules
 
-1. Initialize: L1 = {frequent 1-itemsets}
+1- Initialize: L1 = {frequent 1-itemsets}
 2. For (k = 2; Lk-1 is not empty; k++):
     a. Generate Ck, candidate k-itemsets, from Lk-1
     b. For each transaction t in D:
