@@ -27,5 +27,5 @@ Output: Frequent Itemsets, Strong Rules
         i. Rule = s -> (l - s)
         ii. If Calculate_Confidence(D, Rule) >= min_confidence:
             a. Add Rule to Strong Rules
-5. Return Frequent Itemsets, Strong Rules
+5. Return Frequent Itemsets, Strong and able Rules
 ```
