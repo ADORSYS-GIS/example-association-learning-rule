@@ -10,3 +10,4 @@ def apriori(transactions: list[list[object]], min_support: float = 0.7, min_conf
     To find all frequent itemsets in a dataset and generate strong association rules.
     """
     return {}, {}
+
