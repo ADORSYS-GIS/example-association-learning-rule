@@ -30,7 +30,7 @@ if __name__ == "__main__":
     # Example itemset
     itemset = ['apple', 'banana']
 
-    # Calculate support
+    # Calculate the support
     support_value = support(itemset, dataset)
 
     print(f"The support of {itemset} in the dataset is: {support_value}")
