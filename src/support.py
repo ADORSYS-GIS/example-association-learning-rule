@@ -1,7 +1,7 @@
 itemset_type = tuple[object]
 dataset_type = list[list[object]]
 
-def calculate_support(dataset: dataset_type, itemset: itemset_type) -> float:
+def support(dataset: dataset_type, itemset: itemset_type) -> float:
     """
     Calculate the support of an itemset in the dataset.
     """
