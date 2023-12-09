@@ -27,7 +27,7 @@ if __name__ == "__main__":
         ['banana', 'cherry'],
     ]
 
-    # Example itemset
+    # Example of itemset
     itemset = ['apple', 'banana']
 
     # Calculate the support
