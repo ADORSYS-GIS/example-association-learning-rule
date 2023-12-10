@@ -1,2 +1,3 @@
 panda
-notebook
+notebooknumpy==1.26.2
+utils==1.0.1
