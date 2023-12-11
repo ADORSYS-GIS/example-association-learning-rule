@@ -135,26 +135,3 @@ def apriori(dataset, min_support, min_confidence):
         L1 = Lk
 
     return frequent_itemsets, strong_rules
-
-
-# Example usage
-dataset = [
-    ['A', 'B', 'C'],
-    ['B', 'C', 'D'],
-    ['A', 'B', 'D'],
-    ['A', 'C', 'D'],
-    ['A', 'C', 'E'],
-]
-
-min_support = 0.4
-min_confidence = 0.7
-
-frequent_itemsets, strong_rules = apriori(dataset, min_support, min_confidence)
-
-print("Frequent Itemsets:")
-for itemset in frequent_itemsets:
-    print(itemset)
-
-print("\nStrong Rules:")
-for rule, confidence in strong_rules:
-    print(rule, "Confidence:", confidence)

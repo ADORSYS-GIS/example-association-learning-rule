@@ -31,15 +31,3 @@ def calculate_confidence(dataset, rule):
         confidence = 0
 
     return confidence
-dataset = [
-    ['A', 'B', 'C'],
-    ['B', 'C', 'D'],
-    ['A', 'B', 'D'],
-    ['A', 'C', 'D'],
-    ['A', 'C', 'E'],
-]
-
-rule = (['A'], ['C'])
-
-confidence = calculate_confidence(dataset, rule)
-print("Confidence:", confidence)

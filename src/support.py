@@ -18,15 +18,3 @@ def calculate_support(dataset, itemset):
 
     support = count / total_transactions
     return support
-dataset = [
-    ['A', 'B', 'C'],
-    ['B', 'C', 'D'],
-    ['A', 'B', 'D'],
-    ['A', 'C', 'D'],
-    ['A', 'C', 'E'],
-]
-
-itemset = ['A', 'C']
-
-support = calculate_support(dataset, itemset)
-print("Support:", support)
